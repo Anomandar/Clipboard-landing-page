@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 0.8rem;
+}
+
+.textss{
+    font-family: 'Bai Jamjuree';
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg-header-desktop.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.top{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.c-logo{
+    justify-items: center;
+    padding-bottom: 2rem;
+
+}
+
+.c-image{
+    height: 5rem;
+}
+
+.history{
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+
+    /* font-stretch: 40px; */
+
+}
+.long-texts{
+    margin-bottom: 1rem;
+    inline-size: 30rem;
+    overflow-wrap: break-word;
+    /* text-align: center; */
+}
+
+.history-text{
+    text-align: center;
+}
+
+.top-download{
+    display: flex;
+    gap: 1rem;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 20px;
+    padding: 0.7rem 1.5rem;
+    color: white;
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 20px;
+    padding: 0.7rem 1.5rem;
+    color: white;
+}
+
+.snippet-section{
+    margin-bottom: 5rem;
+}
+
+.keep-track{
+    display: grid;
+    margin-bottom: 3rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.keep-header{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.keep-texts{
+    
+    text-align: center;
+}
+
+.function-image{
+    display: flex;
+    gap: 4rem;
+}
+
+.computer-image{
+    height: 24rem;
+    width: auto;
+}
+
+.funtions-side{
+    margin-top: 3rem;
+}
+
+.mid-div{
+    margin-bottom: 2rem;
+}
+.short-head{
+    padding-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.short-texts{
+    inline-size: 15rem;
+    overflow-wrap: break-word;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+}
+
+.access-words{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.access-head{
+    padding-bottom: 1rem;
+}
+.mobile-tab-image{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.tab-images{
+    height: 25rem;
+}
+
+.supercharge{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.super-header{
+    padding-bottom: 1rem;
+}
+.list-logos-down{
+    margin-bottom: 1rem;
+}
+
+.services{
+    display: flex;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.t-icon{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.t-header{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.service-text{
+    inline-size: 20rem;
+    text-align: center;
+}
+.company-logos{
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 10rem;
+}
+.bottom{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+
+.bottom-header{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.bottom-text{
+    inline-size: 35rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.bottom-dowload{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    gap: 10rem;
+    padding: 3rem;
+    background-color: hsla(201, 11%, 66%,0.1);
+}
+
+.footer-c-icon{
+    height: 3rem;
+}
+
+.footer-middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
+}
+
+.socials{
+    display: flex;
+    gap: 2rem;
+    padding-left: 10rem;
+}
+
+.ios:hover{
+    background-color: hsla(171, 66%, 44%, 0.7);
+    cursor: pointer;
+}
+
+.mac:hover{
+    background-color: hsla(233, 100%, 69%, 0.7);
+    cursor: pointer;
+}
+
+.bttm-link:hover{
+    color:  hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+.soc-link:hover{
+    background-color: hsl(171, 66%, 44%);
+    fill: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 480px){
+
+    body{
+        display: grid;
+        background-image: url(../images/bg-header-mobile.png);
+    }
+
+    .wrapper{
+        display: grid;
+    }
+    
+    .toptext{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    }
+
+    .history{
+        inline-size: 20rem;
+        overflow-wrap: break-word;
+    }
+
+    .long-texts{
+        inline-size: 17rem;
+        overflow-wrap: break-word;
+    }
+
+    .download-button{
+        display: grid;
+    }
+
+    .ios{
+        width: 100%;
+        padding: 0.7rem 5rem;
+
+    }
+
+    .mac{
+        width: 100%;
+        padding: 0.7rem 5rem;
+    }
+
+    .keep-track{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .keep-header{
+        inline-size: 15rem;
+        overflow-wrap: break-word;
+    }
+
+    .function-image{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .computer-image{
+        height: 15rem;
+    }
+
+    .funtions-side{
+        margin-top: 0;
+    }
+
+    .short-head{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .short-texts{
+        text-align: center;
+    }
+
+    .access-words{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .access-head{
+        inline-size:  15rem;
+    }
+
+    .tab-images{
+        height: 15rem;
+    }
+
+    .supercharge{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .super-header{
+        inline-size: 15rem;
+    }
+
+    .super-text{
+        inline-size: 15rem;
+    }
+
+    .services{
+        display: grid;
+    }
+
+    .service-text{
+    inline-size: 14rem;
+    }
+
+    .company-logos{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .bottom-sect{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .bottom-header{
+        inline-size: 20rem;
+    }
+
+    .bottom-text{
+        inline-size: 15rem;
+    }
+
+
+
+    footer{
+        display: grid;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+    }
+    .footer-icon-side{
+        padding-bottom: 1rem;
+    }
+
+    .footer-middle{
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .socials{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 0;
+        justify-items: center;
+       
+    }
+
+
+}
+
