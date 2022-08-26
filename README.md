@@ -20,7 +20,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/screenshot%20clipboard%20pc.png)
-![](./images/screenshot%20mobile%20clipboard.png)
+![](./images/clipboard-mobile%20screenshot.png)
 
 
 ### Links
