@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github url](https://github.com/Bill-Adepoju/Clipboard-landing-page)
-- Live Site URL: [live-site url](https://bill-adepoju.github.io/Clipboard-landing-page/)
+- Solution URL: [Github url](https://github.com/Anomandar/Clipboard-landing-page)
+- Live Site URL: [live-site url](https://anomandar.github.io/Clipboard-landing-page/)
 
 ## My process
 
